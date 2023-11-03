@@ -1,0 +1,53 @@
+
+Understanding Statistics in Machine Learning - Practice Questions :
+
+
+
+Q1. How do you assess the statistical significance of an insight?
+A1. The process of assesing the significance comprises the following steps :
+--> Formulation of an Hypothesis - We have a null hypothesis and an alternate hypothesis
+--> Choose a significance level (alpha) - Commonly chosen as 0.05 or 5% but may vary depending on the field of study.
+                                        - If the probability of our observation occuring is less than 5% then we reject the null hypothesis.
+                                        - Probability of the observation occuring given null hypothesis is p-value. If pvalue is less than 0.05 then it is significant.
+--> Select the statistical test - example - Z-test, T-test etc
+--> Check p-vale of test and compare it to alpha to gain insights on significance.
+
+
+Q2. What is the Central Limit Theorem? Explain it. Why is it important?
+A2. Regardless of the population distribution - the sample means are distributed normally as the sample size increases. 
+--> SEM - Standard error of mean - determines how far the sample mean is from the population mean.
+--> It is important because it helps us determine if our observations are occuring by chance and compares the sample to the whole population.
+
+
+Q3. What is the statistical power?
+A3. Statistical power is the probability that a statistical test will correctly detect a true effect or difference when it exists. It depends on factors like sample size, effect size, and significance level and is crucial for reliable hypothesis testing.
+Power is expressed as a probability, typically ranging from 0 to 1 (or 0% to 100%). For example, a power of 0.80 means there is an 80% chance of correctly detecting a true effect if it exists. Higher power values indicate a better ability to detect real effects.
+
+
+Q4. How do you control for biases?
+A4. Biases can be controlled by incorporating hypothesis testing and checking significance or chance of observation occuring.
+
+Some others ways are as follows :
+
+1. Use random or stratified sampling.
+2. Implement systematic data collection.
+3. Apply blinding and random assignment.
+4. Minimize nonresponse bias.
+5. Address confounding variables.
+6. Clean and report data transparently.
+7. Seek peer review and replication.
+8. Consider ethical considerations.
+
+These measures help reduce bias and improve the validity of statistical analysis.
+
+
+Q5. What are confounding variables?
+A5.Confounding variables, also known as confounders, are extraneous factors in a research study that can influence both the independent variable and the dependent variable. These variables can introduce bias or distort the relationship between the variables of interest, leading to incorrect or misleading conclusions.
+
+
+Q6. What is A/B testing?
+A6. A/B testing, also called split testing, is a method where multiple variations of a variable (like a web page or page element) are presented simultaneously to different segments of website visitors in a randomized manner. The goal is to assess which version has the most significant impact and positively influences key business metrics.
+
+
+Q7. What are confidence intervals?
+A7.A confidence interval, in statistics, refers to the probability that a population parameter will fall between a set of values for a certain proportion of times. Analysts often use confidence intervals that contain either 95% or 99% of expected observations.
